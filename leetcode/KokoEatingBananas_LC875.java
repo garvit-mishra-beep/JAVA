@@ -1,0 +1,27 @@
+/*
+Problem: Koko Eating Bananas
+Category: Binary Search
+Difficulty: Medium
+Approach: Binary search on candidate speed rates
+Time Complexity: O(N log M)
+Space Complexity: O(1)
+*/
+
+class KokoEatingBananas_LC875 {
+    public int minEatingSpeed(int[] piles, int h) {
+        int l = 1, r = 0;
+        for (int p : piles)
+            r = Math.max(r, p);
+        while (l < r) {
+            int m = l + (r - l) / 2;
+            int hrs = 0;
+            for (int p : piles)
+                hrs += (p + m - 1) / m;
+            if (hrs <= h)
+                r = m;
+            else
+                l = m + 1;
+        }
+        return l;
+    }
+}
