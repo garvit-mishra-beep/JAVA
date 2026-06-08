@@ -8,8 +8,23 @@
 </p>
 
 <p align="center">
-  A structured collection of Java programs covering <strong>Data Structures & Algorithms</strong>, <strong>OOP concepts</strong>, <strong>Collections</strong>, <strong>LeetCode solutions</strong>, and more — built while learning Java from scratch.
+  A structured, comprehensive collection of Java programs covering <strong>Data Structures & Algorithms (DSA)</strong>, <strong>Object-Oriented Programming (OOP)</strong>, the <strong>Java Collections Framework</strong>, <strong>LeetCode solutions</strong>, and real-world project applications. Built while learning Java from scratch.
 </p>
+
+---
+
+## 🗺️ Quick Navigation
+Explore the contents of this repository by directory:
+- [🔢 DSA — Data Structures & Algorithms](#-dsa--data-structures--algorithms) (6 Programs)
+- [📦 array — Array Programs](#-array--array-programs) (11 Programs)
+- [🔤 String — String Manipulation](#-string--string-manipulation) (4 Programs)
+- [🧬 Inheritance — OOP Inheritance Examples](#-inheritance--oop-inheritance-examples) (5 Programs)
+- [🏗️ OOPs — Object-Oriented Programming](#-oops--object-oriented-programming) (4 Programs)
+- [🗃️ List, Set, Queue — Java Collections](#-list-set-queue--java-collections-framework) (6 Programs)
+- [🏦 PBL — Project Based Learning (Banking System)](#-pbl--project-based-learning) (1 Core App)
+- [🟡 LeetCode Solutions](#-leetcode-solutions) (48 Problems)
+- [💪 Practice — General Programs](#-practice--general-programs) (28 Programs)
+- [🏆 Contest — Competitive Programming](#-contest--competitive-programming) (3 Programs)
 
 ---
 
@@ -17,16 +32,16 @@
 
 ```
 JAVA/
-├── 📂 DSA/              → Sorting algorithms
-├── 📂 array/            → Array-based programs
-├── 📂 String/           → String manipulation
-├── 📂 Inheritance/      → OOP - Inheritance examples
-├── 📂 OPPS/             → Object-Oriented Programming concepts
-├── 📂 List,set,Queue/   → Java Collections Framework
-├── 📂 Hashmap/          → HashMap programs
-├── 📂 leetcode/         → LeetCode problem solutions
-├── 📂 practice/         → General practice programs
-├── 📂 contest/          → Competitive programming
+├── 📂 DSA/              → Core sorting algorithms
+├── 📂 array/            → Fundamental array operations
+├── 📂 String/           → String processing
+├── 📂 Inheritance/      → OOP inheritance & polymorphism
+├── 📂 OPPS/             → Classes, objects & encapsulation
+├── 📂 List,set,Queue/   → Collections framework (List, Set, Map, Lambda)
+├── 📂 Hashmap/          → HashMap workspace
+├── 📂 leetcode/         → 48 classic LeetCode problem solutions
+├── 📂 practice/         → 28 general Java practice programs
+├── 📂 contest/          → CP contest submissions
 └── 📂 PBL/              → Project-Based Learning (Banking System)
 ```
 
@@ -35,69 +50,105 @@ JAVA/
 ## 🗂️ Folder Breakdown
 
 ### 🔢 DSA — Data Structures & Algorithms
-> Core sorting algorithms implemented from scratch
+> Core sorting algorithms implemented from scratch.
 
-| File | Algorithm |
-|------|-----------|
-| [bubblesort.java](DSA/bubblesort.java) | Bubble Sort |
-| [Selectionsort.java](DSA/Selectionsort.java) | Selection Sort |
-| [Insertionsort.java](DSA/Insertionsort.java) | Insertion Sort |
-| [Mergesort.java](DSA/Mergesort.java) | Merge Sort |
-| [Quicksort.java](DSA/Quicksort.java) | Quick Sort |
-| [Prefixsum.java](DSA/Prefixsum.java) | Prefix Sum |
+| Program | Algorithm / Concept |
+|:---|:---|
+| [bubblesort.java](DSA/bubblesort.java) | **Bubble Sort** implementation |
+| [Selectionsort.java](DSA/Selectionsort.java) | **Selection Sort** implementation |
+| [Insertionsort.java](DSA/Insertionsort.java) | **Insertion Sort** implementation |
+| [Mergesort.java](DSA/Mergesort.java) | **Merge Sort** (Divide & Conquer) |
+| [Quicksort.java](DSA/Quicksort.java) | **Quick Sort** (Divide & Conquer) |
+| [Prefixsum.java](DSA/Prefixsum.java) | **Prefix Sum** range query algorithm |
 
 ---
 
 ### 📦 array — Array Programs
-> Fundamental array operations and algorithms
+> Fundamental array operations and algorithms.
 
-`[FibonacciSeq](array/FibonacciSeq.java)` · `[Garland](array/Garland.java)` · `[add](array/add.java)` · `[array](array/array.java)` · `[avrage](array/avrage.java)` · `[countevenodd](array/countevenodd.java)` · `[countvowel](array/countvowel.java)` · `[findsort](array/findsort.java)` · `[maxmin](array/maxmin.java)` · `[reverse](array/reverse.java)` · `[search](array/search.java)`
+| Program | Description |
+|:---|:---|
+| [FibonacciSeq.java](array/FibonacciSeq.java) | Generates the Fibonacci sequence stored in an array |
+| [Garland.java](array/Garland.java) | Garland lamp coloring decision problem |
+| [add.java](array/add.java) | Reads numbers from input and displays their elements |
+| [array.java](array/array.java) | Array initialization, indexing, and basic access patterns |
+| [avrage.java](array/avrage.java) | Computes the average value of elements in an array |
+| [countevenodd.java](array/countevenodd.java) | Counts the number of even and odd integers in an array |
+| [countvowel.java](array/countvowel.java) | Counts vowels inside a character array |
+| [findsort.java](array/findsort.java) | Determines if an array is sorted in ascending order |
+| [maxmin.java](array/maxmin.java) | Finds both the maximum and minimum elements in an array |
+| [reverse.java](array/reverse.java) | Reverses the elements of an array in-place |
+| [search.java](array/search.java) | Searches for an element using Linear Search |
 
 ---
 
 ### 🔤 String — String Manipulation
-> Working with strings, reversal, palindromes
+> Working with strings, character parsing, and reversal.
 
-`[Stringinput](String/Stringinput.java)` · `[Stringpalindrome](String/Stringpalindrome.java)` · `[palin](String/palin.java)` · `[stringrev](String/stringrev.java)`
-
----
-
-### 🧬 Inheritance — OOP Inheritance
-> Real-world examples of Java inheritance
-
-`[Animal](Inheritance/Animal.java)` · `[Calculator](Inheritance/Calculator.java)` · `[Printer](Inheritance/Printer.java)` · `[Shape](Inheritance/Shape.java)` · `[Vehicle](Inheritance/Vehicle.java)`
+| Program | Description |
+|:---|:---|
+| [Stringinput.java](String/Stringinput.java) | Reading line inputs using Scanner |
+| [Stringpalindrome.java](String/Stringpalindrome.java) | Checks if a string reads the same backward as forward |
+| [palin.java](String/palin.java) | Lightweight check for string symmetry |
+| [stringrev.java](String/stringrev.java) | Inverts characters of a String |
 
 ---
 
-### 🏗️ OPPS — Object-Oriented Programming
-> Core OOP principles in action
+### 🧬 Inheritance — OOP Inheritance Examples
+> Real-world examples of Java inheritance and method overriding.
 
-`[CollegePortal](OPPS/CollegePortal.java)` · `[Freq](OPPS/Freq.java)` · `[Main](OPPS/Main.java)` · `[timepass](OPPS/timepass.java)`
+| Program | Description |
+|:---|:---|
+| [Animal.java](Inheritance/Animal.java) | Base class inheritance structure (e.g. Dog, Cat inheriting from Animal) |
+| [Calculator.java](Inheritance/Calculator.java) | Abstract Calculator base with Basic and Advanced implementations |
+| [Printer.java](Inheritance/Printer.java) | Hierarchical override of display styles across printer models |
+| [Shape.java](Inheritance/Shape.java) | Method overriding and polymorphism using area/perimeter calculations |
+| [Vehicle.java](Inheritance/Vehicle.java) | Multilevel inheritance demonstration using Vehicle -> Car -> ElectricCar |
+
+---
+
+### 🏗️ OOPs — Object-Oriented Programming
+> Core principles: Classes, Objects, Constructors, and Access Modifiers.
+
+| Program | Description |
+|:---|:---|
+| [CollegePortal.java](OPPS/CollegePortal.java) | Simulates student/teacher registry illustrating Encapsulation |
+| [Freq.java](OPPS/Freq.java) | Character frequency class modeling data encapsulation |
+| [Main.java](OPPS/Main.java) | Driver demonstrating object instances and constructor usage |
+| [timepass.java](OPPS/timepass.java) | Playground for testing access modifiers and nested classes |
 
 ---
 
 ### 🗃️ List, Set, Queue — Java Collections Framework
-> Mastering Java's built-in data structures
+> Mastering Java's built-in data structures and functional concepts.
 
-`[list](List,set,Queue/list.java)` · `[list1](List,set,Queue/list1.java)` · `[Setdemo](List,set,Queue/Setdemo.java)` · `[Frequency](List,set,Queue/Frequency.java)` · `[Lemda](List,set,Queue/Lemda.java)` · `[map](List,set,Queue/map.java)`
+| Program | Description |
+|:---|:---|
+| [list.java](List,set,Queue/list.java) | Managing dynamic elements with **ArrayList** |
+| [list1.java](List,set,Queue/list1.java) | Operations and traversal with **LinkedList** |
+| [Setdemo.java](List,set,Queue/Setdemo.java) | Uniqueness tracking and sets using **HashSet** |
+| [Frequency.java](List,set,Queue/Frequency.java) | Map-based count tracker using **HashMap** |
+| [Lemda.java](List,set,Queue/Lemda.java) | Functional programming, Streams, and **Lambda** syntax |
+| [map.java](List,set,Queue/map.java) | Map insertions, iterations, and key-value pair lookups |
 
 ---
 
 ### 🏦 PBL — Project Based Learning
-> A full **Banking System** built in Java (see [banking.java](PBL/banking.java))
+> A full **Console Banking System** demonstrating production-ready Java architecture.
 
-- Account creation & management
-- Deposit / Withdrawal operations
-- Custom exception handling (`InsufficientBalanceException`, `InvalidAccountDetailsException`, etc.)
-- File-based data persistence
+The project inside [PBL/banking.java](PBL/banking.java) incorporates key principles of object-oriented programming:
+*   **Encapsulation**: State-controlled bank account entities.
+*   **Exception Handling**: Custom application exceptions (`InsufficientBalanceException`, `InvalidAccountDetailsException`, etc.).
+*   **Data Persistence**: File-based storage to persist accounts and account states across sessions.
+*   **Transactional Flow**: Real-time deposits, withdrawals, transfers, and balance checks.
 
 ---
 
 ### 🟡 LeetCode Solutions
-> Solutions to classic LeetCode problems
+> Solutions to 48 classic LeetCode algorithms, optimized for time and space complexity.
 
 | Problem | File |
-|---------|------|
+|:---|:---|
 | Two Sum | [Q1_TwoSum.java](leetcode/Q1_TwoSum.java) |
 | Add Two Numbers | [Q2_AddTwoNumbers.java](leetcode/Q2_AddTwoNumbers.java) |
 | Longest Substring Without Repeating | [Q3_LongestSubstringWithoutRepeatingCharacters.java](leetcode/Q3_LongestSubstringWithoutRepeatingCharacters.java) |
@@ -150,16 +201,49 @@ JAVA/
 ---
 
 ### 💪 Practice — General Programs
-> 28 programs covering core Java concepts
+> 28 general Java practice programs covering math, basic logic, and console mini-games.
 
-`[BRICK](practice/BRICK.java)` · `[Bank](practice/Bank.java)` · `[CheckArraysEqual](practice/CheckArraysEqual.java)` · `[CheckSorted](practice/CheckSorted.java)` · `[CountFrequency](practice/CountFrequency.java)` · `[Evenodd](practice/Evenodd.java)` · `[Factorial](practice/Factorial.java)` · `[FindDuplicates](practice/FindDuplicates.java)` · `[FindMaximum](practice/FindMaximum.java)` · `[Findlcmandhcf](practice/Findlcmandhcf.java)` · `[FirstNonRepeating](practice/FirstNonRepeating.java)` · `[Grade](practice/Grade.java)` · `[Main](practice/Main.java)` · `[MoveZeroes](practice/MoveZeroes.java)` · `[Multiply](practice/Multiply.java)` · `[Numberprint](practice/Numberprint.java)` · `[Prime](practice/Prime.java)` · `[Printevenno](practice/Printevenno.java)` · `[Printoddno](practice/Printoddno.java)` · `[ReverseArray](practice/ReverseArray.java)` · `[Secondlargest](practice/Secondlargest.java)` · `[TwoSum](practice/TwoSum.java)` · `[countofdigit](practice/countofdigit.java)` · `[greatestof3](practice/greatestof3.java)` · `[happyno](practice/happyno.java)` · `[leapN](practice/leapN.java)` · `[palindromeno](practice/palindromeno.java)` · `[watermelon](practice/watermelon.java)`
+| Program | Description |
+|:---|:---|
+| [BRICK.java](practice/BRICK.java) | Interactive OOP console brick breaker game simulation |
+| [Bank.java](practice/Bank.java) | Console-based core banking menu implementation |
+| [CheckArraysEqual.java](practice/CheckArraysEqual.java) | Compares if elements of two arrays are equal |
+| [CheckSorted.java](practice/CheckSorted.java) | Verifies array sorting logic |
+| [CountFrequency.java](practice/CountFrequency.java) | Standard character occurrences count logic |
+| [Evenodd.java](practice/Evenodd.java) | Modulo logic check for parity |
+| [Factorial.java](practice/Factorial.java) | Factorial logic checker |
+| [FindDuplicates.java](practice/FindDuplicates.java) | Returns repeated values in a collection |
+| [FindMaximum.java](practice/FindMaximum.java) | Locates the highest value in an array |
+| [Findlcmandhcf.java](practice/Findlcmandhcf.java) | Lowest Common Multiple and Highest Common Factor algorithms |
+| [FirstNonRepeating.java](practice/FirstNonRepeating.java) | Finds first non-repeating character in a string |
+| [Grade.java](practice/Grade.java) | Grader logic utilizing switch case loops |
+| [Main.java](practice/Main.java) | Basic entrypoint driver and class demo |
+| [MoveZeroes.java](practice/MoveZeroes.java) | Shuffling zero values to the tail of an array |
+| [Multiply.java](practice/Multiply.java) | Basic mathematical multiplier logic |
+| [Numberprint.java](practice/Numberprint.java) | Demonstrates standard number printing loops |
+| [Prime.java](practice/Prime.java) | Checks if a number has prime characteristics |
+| [Printevenno.java](practice/Printevenno.java) | Prints even numbers under a threshold |
+| [Printoddno.java](practice/Printoddno.java) | Prints odd numbers under a threshold |
+| [ReverseArray.java](practice/ReverseArray.java) | Basic array reverse script |
+| [Secondlargest.java](practice/Secondlargest.java) | Identifies second largest array value |
+| [TwoSum.java](practice/TwoSum.java) | Basic O(N^2) TwoSum search example |
+| [countofdigit.java](practice/countofdigit.java) | Determines count of digits in a value |
+| [greatestof3.java](practice/greatestof3.java) | Logic for locating largest of three variables |
+| [happyno.java](practice/happyno.java) | Happy number identification loop |
+| [leapN.java](practice/leapN.java) | Leap year boolean verification logic |
+| [palindromeno.java](practice/palindromeno.java) | Numerical palindrome logic verification |
+| [watermelon.java](practice/watermelon.java) | Watermelon weights parity partition check |
 
 ---
 
 ### 🏆 Contest — Competitive Programming
-> Problems solved during coding contests
+> Submissions to contests and online judge problems.
 
-`[A.java](contest/A.java)` · `[B.java](contest/B.java)` · `[D.java](contest/D.java)`
+| File | Challenge |
+|:---|:---|
+| [A.java](contest/A.java) | Contest Problem A submission |
+| [B.java](contest/B.java) | Contest Problem B submission |
+| [D.java](contest/D.java) | Contest Problem D submission |
 
 ---
 
@@ -169,14 +253,14 @@ JAVA/
 # Clone the repository
 git clone https://github.com/garvit-mishra-beep/JAVA.git
 
-# Navigate to a folder
-cd JAVA/DSA
+# Navigate to the project folder
+cd JAVA
 
-# Compile any Java file
-javac bubblesort.java
+# Compile any Java file (e.g. from the DSA folder)
+javac DSA/bubblesort.java
 
-# Run it
-java bubblesort
+# Run the compiled program
+java DSA.bubblesort
 ```
 
 ---
@@ -188,14 +272,6 @@ java bubblesort
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</p>
-
----
-
-## 📈 Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=garvit-mishra-beep&repo=JAVA&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
