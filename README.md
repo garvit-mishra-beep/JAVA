@@ -275,7 +275,3 @@ java DSA.bubblesort
 </p>
 
 ---
-
-<p align="center">
-  Made with ❤️ by <a href="https://github.com/garvit-mishra-beep"><strong>Garvit Mishra</strong></a>
-</p>
