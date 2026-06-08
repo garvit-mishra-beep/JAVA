@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not directories
+!*/
+
+# Allow only .java files
+!*.java
+
+# Allow .gitignore
+!.gitignore
+
+# Allow README
+!README.md
+
