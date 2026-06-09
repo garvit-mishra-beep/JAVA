@@ -1,15 +1,5 @@
-/*
-Problem: Linear Search
-Category: Searching
-Difficulty: Easy
-Approach: Sequential scan
-Time Complexity: O(N)
-Space Complexity: O(1)
-*/
-
-package array;
 import java.util.*;
-public class search {
+public class Linearsearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of the array: ");

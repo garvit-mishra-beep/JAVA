@@ -21,6 +21,7 @@ Explore the contents of this repository by directory:
 - [🌱 Java Basics](#-java-basics) (18 Programs)
 - [🟡 LeetCode Solutions](#-leetcode-solutions) (48 Problems)
 - [🏗️ OOP — Object-Oriented Programming](#-oop--object-oriented-programming) (11 Programs)
+- [🏦 PBL — Project Based Learning](#-pbl--project-based-learning-console-banking-system)
 - [🔄 Recursion](#-recursion) (1 Program)
 - [🔍 Searching Algorithms](#-searching-algorithms) (1 Program)
 - [🔢 Sorting Algorithms](#-sorting-algorithms) (5 Programs)
@@ -55,8 +56,8 @@ JAVA/
 ### 📦 Arrays — Array Programs
 > Fundamental array operations, min-max tracking, and array manipulation challenges.
 
-| Program | Description |
-|:---|:---|
+| 📄 Program | 📝 Description |
+| :--- | :--- |
 | [CheckSortedPractice.java](Arrays/CheckSortedPractice.java) | Checks if elements in an array are sorted in ascending order |
 | [CountEvenOdd.java](Arrays/CountEvenOdd.java) | Counts the number of even and odd values in an array |
 | [CountVowels.java](Arrays/CountVowels.java) | Counts the occurrence of vowels inside a character array |
@@ -76,8 +77,8 @@ JAVA/
 ### 🗃️ Collections — Java Collections
 > Mastering Java's built-in data structures and functional programming paradigms.
 
-| Program | Description |
-|:---|:---|
+| 📄 Program | 📝 Description |
+| :--- | :--- |
 | [CharFrequencyCounter.java](Collections/CharFrequencyCounter.java) | Character frequency count utility |
 | [ElementFrequency.java](Collections/ElementFrequency.java) | Counts occurrences of elements using HashMap |
 | [LambdaExpressionsDemo.java](Collections/LambdaExpressionsDemo.java) | Demonstration of Lambdas, functional interfaces, and stream APIs |
@@ -91,8 +92,8 @@ JAVA/
 ### 🏆 Contests — Competitive Programming
 > Submissions to contests and online judge problems.
 
-| File | Challenge |
-|:---|:---|
+| 📄 File | ⚔️ Challenge |
+| :--- | :--- |
 | [ParityCheck_CF_TODO.java](Contests/ParityCheck_CF_TODO.java) | Parity checking challenge (Todo) |
 | [QualityVsQuantity_CF1646B.java](Contests/QualityVsQuantity_CF1646B.java) | Codeforces 1646B: Quality vs Quantity |
 | [SameDifferences_CF1520D.java](Contests/SameDifferences_CF1520D.java) | Codeforces 1520D: Same Differences |
@@ -102,8 +103,8 @@ JAVA/
 ### 🌱 Java Basics
 > Introduction to basic syntax, variables, logical checks, Scanner inputs, and operators.
 
-| Program | Description |
-|:---|:---|
+| 📄 Program | 📝 Description |
+| :--- | :--- |
 | [ArrayAdditionDemo.java](JavaBasics/ArrayAdditionDemo.java) | Basic array creation and addition inputs |
 | [CountDigits.java](JavaBasics/CountDigits.java) | Counting the number of digits in an integer |
 | [EvenOddCheck.java](JavaBasics/EvenOddCheck.java) | Basic parity checker script |
@@ -171,8 +172,8 @@ The core project files have been structured into the `OOP/Encapsulation/` direct
 ### 🔢 Sorting Algorithms
 > Classic sorting algorithms implemented from scratch.
 
-| Program | Algorithm |
-|:---|:---|
+| 📄 Program | ⚙️ Algorithm |
+| :--- | :--- |
 | [BubbleSort.java](Sorting/BubbleSort.java) | **Bubble Sort** sorting algorithm |
 | [InsertionSort.java](Sorting/InsertionSort.java) | **Insertion Sort** sorting algorithm |
 | [MergeSort.java](Sorting/MergeSort.java) | **Merge Sort** sorting algorithm |
@@ -184,8 +185,8 @@ The core project files have been structured into the `OOP/Encapsulation/` direct
 ### 🔤 Strings — String Manipulation
 > Standard string manipulation utilities, character counting, and checks.
 
-| Program | Description |
-|:---|:---|
+| 📄 Program | 📝 Description |
+| :--- | :--- |
 | [CountCharFrequency.java](Strings/CountCharFrequency.java) | Counts frequencies of characters in strings |
 | [FirstNonRepeatingChar.java](Strings/FirstNonRepeatingChar.java) | Locates the first unique character inside a string |
 | [SimplePalindrome.java](Strings/SimplePalindrome.java) | Simple character palindrome utility |
@@ -197,8 +198,8 @@ The core project files have been structured into the `OOP/Encapsulation/` direct
 ### 🟡 LeetCode Solutions
 > Optimized solutions to 48 classic LeetCode algorithms.
 
-| Problem | File |
-|:---|:---|
+| 🧩 Problem | 📄 File |
+| :--- | :--- |
 | Two Sum | [TwoSum_LC1.java](leetcode/TwoSum_LC1.java) |
 | Add Two Numbers | [AddTwoNumbers_LC2.java](leetcode/AddTwoNumbers_LC2.java) |
 | Longest Substring Without Repeating | [LongestSubstringWithoutRepeatingCharacters_LC3.java](leetcode/LongestSubstringWithoutRepeatingCharacters_LC3.java) |
