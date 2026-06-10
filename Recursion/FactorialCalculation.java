@@ -6,13 +6,14 @@ public class FactorialCalculation {
         System.out.print("Enter a number to calculate its factorial ");
         int n = sc.nextInt();
         double fact = calculateFactorial(n);
-        System.out.println("Factorial of " + n + " is: " + fact);
-    }
-
-    public static double calculateFactorial(int n) {
-        if (n <= 1) {
-            return 1;
+        double factIterative = 1;
+        for(int i=1; i<=n; i++) {
+            factIterative *= i;
         }
-        return n * calculateFactorial(n - 1);
+        System.out.println("Factorial by recursion of " + n + " is: " + fact);
+        System.out.println("Factorial* by loop of " + n + " is: " + factIterative);
+    }
+    public static double calculateFactorial(int n) {
+        return n * calculateFactorial(n-1);
     }
 }
