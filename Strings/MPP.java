@@ -3,14 +3,14 @@ public class MPP {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
-        int[] freq = new int[26];
+        HashMap<Character, Integer> freq = new HashMap<>();
         int maxFreq = 0;
         for (char c : s.toCharArray()) {
-            freq[c - 'a']++;
-            maxFreq = Math.max(maxFreq, freq[c - 'a']);
+            freq.put(c, freq.getOrDefault(c, 0) + 1);
+            maxFreq = Math.max(maxFreq, freq.get(c));
         }
         for (char c : s.toCharArray()) {
-            if (freq[c - 'a'] != maxFreq) {
+            if (freq.get(c) != maxFreq) {
                 System.out.print(c);
             }
         }
