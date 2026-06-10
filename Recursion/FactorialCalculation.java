@@ -11,9 +11,12 @@ public class FactorialCalculation {
             factIterative *= i;
         }
         System.out.println("Factorial by recursion of " + n + " is: " + fact);
-        System.out.println("Factorial* by loop of " + n + " is: " + factIterative);
+        System.out.println("Factorial by loop of " + n + " is: " + factIterative);
     }
     public static double calculateFactorial(int n) {
+        if(n <= 1) {
+            return 1;
+        }
         return n * calculateFactorial(n-1);
     }
 }
