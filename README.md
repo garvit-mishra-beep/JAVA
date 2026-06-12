@@ -14,6 +14,25 @@
 </p>
 
 ---
+## 📊 Repository Highlights
+
+✅ 100+ Java Programs
+
+✅ Data Structures Implemented from Scratch
+
+✅ Sorting Algorithms
+
+✅ Competitive Programming Solutions
+
+✅ LeetCode Practice Problems
+
+✅ Recursion & Backtracking
+
+✅ Collections Framework
+
+✅ Interview-Oriented Coding Questions
+
+---
 
 ## 📊 Repository at a Glance
 
