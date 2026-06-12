@@ -427,7 +427,7 @@ Sorting          ████████████████████  C
 Searching        ████████████░░░░░░░░  In Progress
 Strings          ████████████████░░░░  Active
 OOP (4 Pillars)  ████████████████████  Complete
-LeetCode         ████████████████░░░░  50 / 100+ target
+LeetCode         ██████████░░░░░░░░░░  50 / 100+ target
 Contests         ████░░░░░░░░░░░░░░░░  Growing
 Trees & Graphs   ░░░░░░░░░░░░░░░░░░░░  Coming Soon
 Dynamic Prog.    ░░░░░░░░░░░░░░░░░░░░  Coming Soon
