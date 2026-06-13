@@ -15,5 +15,6 @@ public class AddandPrint {
     System.out.println(s);
     System.out.println("removing:"+s.pop());
     System.out.println(s);
+    
 }
 }
