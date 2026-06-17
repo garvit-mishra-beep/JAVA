@@ -74,18 +74,6 @@ javac JavaBasics/PrimeVerification.java
 java -cp JavaBasics Prime
 ```
 
----
-
-## 📸 Repository Preview
-
-| Visual Banner | Directory Architecture |
-| :---: | :---: |
-| ![Banner](assets/banner.png)<br>*Repository Banner: Java, DSA, and LeetCode path* | ![Folder Structure](assets/folder-structure.png)<br>*Clean, logical repository directory layout* |
-| **LeetCode Solutions** | **Banking System PBL** |
-| ![LeetCode Solutions](assets/leetcode-solutions.png)<br>*Pattern-grouped LeetCode solutions with analysis* | ![Banking System](assets/banking-system.png)<br>*Interactive terminal banking system application* |
-
----
-
 ## 📊 Repository Statistics
 
 <div align="center">
